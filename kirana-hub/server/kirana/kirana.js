@@ -1,4 +1,3 @@
-        // Players = new Meteor.Collection("players");
         
         
 user_Details = new Meteor.Collection("user_details");
