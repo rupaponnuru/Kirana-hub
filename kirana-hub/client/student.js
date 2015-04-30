@@ -7,11 +7,15 @@ document.getElementsByTagName("head")[0].appendChild(js);
 
 function register()
 {
-       var user_details = { firstname : document.getElementById("fname").value,
+       var userdetails = { firstname : document.getElementById("fname").value,
                          lastname  : document.getElementById("lname").value,
                          password  : document.getElementById("pwd").value,
                          email    : document.getElementById("email").value
                        } ;
-        addUser(user_details);
+        addUser(userdetails);
         
+}
+function getusers()
+{
+  getUsers();
 }

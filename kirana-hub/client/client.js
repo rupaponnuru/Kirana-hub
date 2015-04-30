@@ -2,7 +2,7 @@ $(function (){
    
     $.ajax({
       type: 'GET',
-      url: 'http://localhost:3000/collectionapi/players' ,
+      url: 'http://localhost:3000/collectionapi/user_details' ,
       success: function(data) { 
            console.log('success',data);
            alert("success");
@@ -12,8 +12,8 @@ $(function (){
   }); 
   
   
-       
-      var data1 = { "name": "john7" };
+    /*   
+      var data1 = { "firstname":"ab","lastname":"ba","password":"ab","email":"asd@gmail.com" };
        
        $.ajax({
           type: 'POST',
@@ -26,7 +26,7 @@ $(function (){
           error: function(XMLHttpRequest, textStatus, errorThrown) {alert(XMLHttpRequest); alert(textStatus) ; console.log(errorThrown) ; },
          });
    
-        
+       */ 
   
 
 });
