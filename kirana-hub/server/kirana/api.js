@@ -23,7 +23,7 @@ addUser = function(objs, requestMetadata, returnObject) {
                       var checkEmail = user_Details.find({"email":userEmail}).count() ;
                       if (checkEmail == 0)
                       {
-                        //user_Details.insert(objs);
+                        user_Details.insert(objs);
                         returnObject.statusCode = 201;
                         returnObject.body = {
                                                method: 'POST',
